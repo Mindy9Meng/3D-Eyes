@@ -23,6 +23,6 @@ body.addEventListener('mousemove', function (e) {
     // 通过分析轴和区间，得出
     // 当用户在 x 轴移动鼠标时，CSS转动为 rotateY(xDeg)
     // 当用户在 y 轴移动鼠标时，CSS转动为 rotateX(-yDeg)
-    leftE.style.transform = `rotateX(${-ydeg*1.2}deg) rotateY(${xleftdeg}deg)`
-    rightE.style.transform = `rotateX(${-ydeg*1.2}deg) rotateY(${xrightdeg}deg)`
+    leftE.style.transform = `rotateX(${-ydeg*2}deg) rotateY(${xleftdeg}deg)`
+    rightE.style.transform = `rotateX(${-ydeg*2}deg) rotateY(${xrightdeg}deg)`
 })
